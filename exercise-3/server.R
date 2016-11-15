@@ -1,7 +1,6 @@
 # server.R
 library(dplyr)
 
-
 # Read in data
 setwd('/Users/clalissayi/Desktop/INFO 201/m14-shiny/exercise-3')
 source('./scripts/buildMap.R')
