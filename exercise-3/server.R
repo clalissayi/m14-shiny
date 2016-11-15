@@ -1,8 +1,9 @@
 # server.R
 library(dplyr)
 
+
 # Read in data
-setwd('~/Documents/info-201/m14-shiny/exercise-3/')
+setwd('/Users/clalissayi/Desktop/INFO 201/m14-shiny/exercise-3')
 source('./scripts/buildMap.R')
 df <- read.csv('./data/electoral_college.csv', stringsAsFactors = FALSE)
 state.codes <- read.csv('./data/state_codes.csv', stringsAsFactors = FALSE)
